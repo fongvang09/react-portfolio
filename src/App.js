@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 
 function App() {
-  document.title = "Portfolio"
+  document.title = "Portfolio page"
   return <Home />
 }
 

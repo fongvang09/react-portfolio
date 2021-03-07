@@ -13,10 +13,10 @@ function Header() {
                     <h1>Fong Vang</h1>
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="portfolio">Portfolio</a>
-        {/* <Router>
+                        {/* <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a> */}
+                    {/* <Router>
                         <Route exact path ="/" component={Portfolio} />
-            </Router> */}
+                    </Router> */}
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index">About Me</a>
