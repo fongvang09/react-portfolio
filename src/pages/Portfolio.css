@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+body img {
+    width: 100%;
+}
+
+body section img {
+    float: left;
+    width: 200px;
+    margin: 20px;
+}
+
+.portfolio-img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-expand-sm {
+    display: block;
+    padding-right: auto;
+}
+
+.bodybgc {
+    background-color: rgb(128, 145, 139);
+}
+
+.card {
+    height: 100%;
+    background-color: #ececec;
+}
+
+.text {
+    font-family: cursive;
+}
+
+.card-body {
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section li {
+    text-align: center;
+}
+
+section img {
+    border-style: dashed;
+    border-width: 1px;
+}
+
+a {
+    color: blue;
+}
