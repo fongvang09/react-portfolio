@@ -2,6 +2,8 @@ import React from "react";
 // import Header from "../components/Header";
 // import Footer from "../components/Footer";
 import "./Portfolio.css";
+// import Images from "../Images";
+import Images from "../Images/Images";
 
 function Portfolio() {
     return (
@@ -14,18 +16,14 @@ function Portfolio() {
             <br/>
             <section class="text">
                 <div class="container">
-                    <h2>Updated Portfolio</h2>
-                    <p>Here are a few of the screenshots from my homework assignments that I've done so far while I was away. Looking
-                        forward to adding more onto the list! Below the images are the deployed links to the assignments that I've done.
-                    </p>
-
                     <div class="row">
                         <ul class="col-md-6 col-sm-6">
                             <li>
                                 <h3>Horiseon website</h3>
                             </li>
                             <li>
-                                <div><img src="./images/horiseonss.JPG" alt="horiseon webpage screenshot" class="portfolio-img" /></div>
+                                <div><img src="../Images/horiseonss.JPG" alt="horiseon webpage screenshot" class="portfolio-img" /></div>
+                                <div><img key={1} src={Images} alt="horiseon webpage screenshot" class="portfolio-img" /></div>
                             </li>
                             <li>Deployed link: <a href="https://fongvang09.github.io/horiseon/"
                                 target="_blank">https://fongvang09.github.io/horiseon/</a></li>
