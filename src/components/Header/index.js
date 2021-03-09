@@ -14,9 +14,6 @@ function Header() {
                     <ul className="navbar-nav">
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="portfolio">Portfolio</a>
-        {/* <Router>
-                        <Route exact path ="/" component={Portfolio} />
-            </Router> */}
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="index">About Me</a>

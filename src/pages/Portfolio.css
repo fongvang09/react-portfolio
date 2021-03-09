@@ -61,3 +61,7 @@ section img {
 a {
     color: blue;
 }
+
+span {
+    font-weight: bold;
+}

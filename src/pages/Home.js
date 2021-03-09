@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 // import Wrapper from "../components/Wrapper";
 // import "./Portfolio.css";
 import "../image.json";
+import "./Portfolio.css";
 
 function Home() {
     return (
@@ -53,43 +54,43 @@ function Home() {
                 <div className="card">
                     <br/>
                     {/* don't delete. fix the styling. put into css folder or do inline css */}
-                    {/* <p style="padding: 10px;">
+                    <p>
                         Hello! The few following pictures in the following order left to right, top to bottom were from a few years
-                        ago. Very briefly, <span style="font-weight: bold;">(1)</span>first photo consists of me and
+                        ago. Very briefly, <span>(1)</span>first photo consists of me and
                         a few of my good friends that we met from high school. This picture was taken at Chicago's Willis Tower
-                        observation deck. <span style="font-weight: bold;">(2)</span>Second photo is just my friends
+                        observation deck. <span>(2)</span>Second photo is just my friends
                         posing for fun as if they were in a business setting. This picture was taken at a hotel at Bangkok, Thailand.
-                        <span style="font-weight: bold;">(3)</span>A temple that is inaccessible in the middle of a large pond
-                        in Thailand. <span style="font-weight: bold;">(4)</span>A luxurious watch that I took a photo of from an
-                        expensive store somewhere in Thailand. <span style="font-weight: bold;">(5)</span>A few of my friends and I
+                        <span>(3)</span>A temple that is inaccessible in the middle of a large pond
+                        in Thailand. <span>(4)</span>A luxurious watch that I took a photo of from an
+                        expensive store somewhere in Thailand. <span>(5)</span>A few of my friends and I
                         wanted to experience a new
                         way of eating so we went into a restaurant inside a mall in Thailand called MBK Center. All you can eat
                         hotpot-style while sitting next to the conveyor of food on a plate
-                        prepped by chefs at the back. <span style="font-weight: bold;">(6)</span>Fishing is a part of me so here I am
+                        prepped by chefs at the back. <span>(6)</span>Fishing is a part of me so here I am
                         posing with some walleyes that I caught at St. Cloud awhile back!
-                    </p> */}
+                    </p>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 col-sm-6"><img src="./images/12957646_10208106303847059_5781334766809125067_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src="./assets/12957646_10208106303847059_5781334766809125067_o.jpg"
                                 className="portfolio-img" alt="Group of friends at Chicago's Willis Tower observation deck taking selfie." />
                             </div>
-                            <div className="col-md-6 col-sm-6"><img src="./images/14976477_10209856889770613_4681618712186986534_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src="./assets/14976477_10209856889770613_4681618712186986534_o.jpg"
                                 className="portfolio-img" alt="Two guys exchanging notes and info at a hotel." />
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 col-sm-6"><img src="./images/14991364_10209857016853790_4196552330444468827_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src="./assets/14991364_10209857016853790_4196552330444468827_o.jpg"
                                 className="portfolio-img" alt="Thai temple in the middle of a pond inaccessible to public" />
                             </div>
-                            <div className="col-md-6 col-sm-6"><img src="./images/15002500_10209856891090646_4831971174106407515_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src="./assets/15002500_10209856891090646_4831971174106407515_o.jpg"
                                     className="portfolio-img" alt="Luxurious watch inside glass box in a store." />
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 col-sm-6"><img src="./images/15016414_10209857569467605_5381956399134002401_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src="./assets/15016414_10209857569467605_5381956399134002401_o.jpg"
                                 className="portfolio-img" alt="Cooked food on plates coming down a conveyor" />
                             </div>
-                            <div className="col-md-6 col-sm-6"><img src="./images/319994_2281032997001_353546433_n.jpg" className="portfolio-img"
+                            <div className="col-md-6 col-sm-6"><img src="./assets/319994_2281032997001_353546433_n.jpg" className="portfolio-img"
                                 alt="Dude holding up rod on one hand and walleyes on the other." />
                             </div>
                         </div>
