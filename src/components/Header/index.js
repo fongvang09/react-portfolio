@@ -8,21 +8,21 @@ function Header() {
     return (
         <>
             <header>
-                <nav class="navbar navbar-expand-sm bg-light">
-                <div class="container-fluid">
+                <nav className="navbar navbar-expand-sm bg-light">
+                <div className="container-fluid">
                     <h1>Fong Vang</h1>
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="portfolio">Portfolio</a>
+                    <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a className="nav-link active" aria-current="page" href="portfolio">Portfolio</a>
         {/* <Router>
                         <Route exact path ="/" component={Portfolio} />
             </Router> */}
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index">About Me</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="index">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="contact">Contact</a>
                     </li>
                     </ul>
                 </div>
