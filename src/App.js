@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 // import ReactDOM from "react-dom";
 import Home from "./pages/Home";
 import Wrapper from "./components/Wrapper";
@@ -19,11 +19,15 @@ function App() {
         <Router>
           <Header />
           <Wrapper>
+            {/* <Link exact path ="/" component={Home} /> */}
             <Route exact path ="/" component={Home} />
-            <Route exact path ="/react-portfolio" component={Home} />
             <Route exact path ="/index" component={Home} />
             <Route exact path ="/contact" component={Contact} />
             <Route exact path ="/portfolio" component={Portfolio} />
+            {/* <Link to="/" component={Home} />
+            <Link to="/index" component={Home} />
+            <Link to="/contact" component={Contact} />
+            <Link to="/portfolio" component={Portfolio} /> */}
           </Wrapper>
         </Router>
       </div>

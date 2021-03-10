@@ -1,5 +1,12 @@
 import React from "react";
 import "./Portfolio.css";
+import image1 from "../Images/horiseonss.JPG";
+import image2 from "../Images/weather-dashboard-ss.JPG";
+import image3 from "../Images/note-taker-ss.JPG";
+import image4 from "../Images/pwgenss.JPG";
+import image5 from "../Images/flickfinderss.JPG";
+import image6 from "../Images/demo1.gif";
+import image7 from "../Images/gif2.gif";
 
 function Portfolio() {
     return (
@@ -20,7 +27,7 @@ function Portfolio() {
                                     <h3>Horiseon website</h3>
                                 </li>
                                 <li>
-                                    <div><img src="/assets/horiseonss.JPG" alt="horiseon webpage screenshot" className="portfolio-img" /></div>
+                                    <div><img src={image1} alt="horiseon webpage screenshot" className="portfolio-img" /></div>
                                 </li>
                                 <li>Deployed link: <a href="https://fongvang09.github.io/horiseon/"
                                     target="_blank" rel="noreferrer">https://fongvang09.github.io/horiseon/</a></li>
@@ -31,7 +38,7 @@ function Portfolio() {
                                     <h3>Weather app</h3>
                                 </li>
                                 <li>
-                                    <div><img src="/assets/weather-dashboard-ss.JPG" alt="weather dashboard screenshot" className="portfolio-img" />
+                                    <div><img src={image2} alt="weather dashboard screenshot" className="portfolio-img" />
                                     </div>
                                 </li>
                                 <li>Deployed link: <a href="https://fongvang09.github.io/Weather-Dashboard/"
@@ -46,7 +53,7 @@ function Portfolio() {
                                 <h3>Note Taker</h3>
                             </li>
                             <li>
-                                <div><img src="/assets/note-taker-ss.JPG" alt="note-taker screenshot" className="portfolio-img" />
+                                <div><img src={image3} alt="note-taker screenshot" className="portfolio-img" />
                                 </div>
                             </li>
                             <li>Deployed link: <a href="https://still-reef-79843.herokuapp.com/"
@@ -58,7 +65,7 @@ function Portfolio() {
                                 <h3>Password generator</h3>
                             </li>
                             <li>
-                                <div><img src="/assets/pwgenss.JPG" alt="password generator screenshot" className="portfolio-img" /></div>
+                                <div><img src={image4} alt="password generator screenshot" className="portfolio-img" /></div>
                             </li>
                             <li>Deployed link: <a href="https://fongvang09.github.io/Password-Generator/"
                                 target="_blank" rel="noreferrer">https://fongvang09.github.io/Password-Generator/</a></li>
@@ -70,7 +77,7 @@ function Portfolio() {
                             <li>
                                 <h3>1st Group Project</h3>
                             </li>
-                            <li><img src="/assets/flickfinderss.JPG" alt="flick finder website screenshot" className="portfolio-img" /></li>
+                            <li><img src={image5} alt="flick finder website screenshot" className="portfolio-img" /></li>
                             <li>Deployed link: <a href="https://elderbass.github.io/API-Project-Treecko/"
                                 target="_blank" rel="noreferrer">https://elderbass.github.io/API-Project-Treecko/</a></li>
                             <li>GitHub repository: <a href="https://github.com/ElderBass/API-Project-Treecko" target="_blank" rel="noreferrer">https://github.com/ElderBass/API-Project-Treecko</a></li>
@@ -83,10 +90,10 @@ function Portfolio() {
                             </li>
                                 <div className="row">
                                     <div className="col-md-6">
-                                    <li><img src="/assets/demo1.gif" alt="website deployed gif" className="portfolio-img" /></li>
+                                    <li><img src={image6} alt="website deployed gif" className="portfolio-img" /></li>
                                     </div>
                                     <div className="col-md-6">
-                                    <li><img src="/assets/gif2.gif" alt="website deployed gif" className="portfolio-img" /></li>
+                                    <li><img src={image7} alt="website deployed gif" className="portfolio-img" /></li>
                                     </div>
                                 </div>
                             <li>Deployed link: <a href="https://infinite-savannah-89804.herokuapp.com/"

@@ -1,6 +1,14 @@
 import React from "react";
 import "../image.json";
 import "./Portfolio.css";
+import image1 from "../Images/fongvangpic.jpg";
+import image2 from "../Images/12957646_10208106303847059_5781334766809125067_o.jpg";
+import image3 from "../Images/14976477_10209856889770613_4681618712186986534_o.jpg";
+import image4 from "../Images/14991364_10209857016853790_4196552330444468827_o.jpg";
+import image5 from "../Images/15002500_10209856891090646_4831971174106407515_o.jpg";
+import image6 from "../Images/15016414_10209857569467605_5381956399134002401_o.jpg";
+import image7 from "../Images/319994_2281032997001_353546433_n.jpg";
+// import image8 from "../Images/";
 
 const style = {
     p: {
@@ -18,7 +26,7 @@ function Home() {
                     <div className="col-md-12">
                         <article>
                             <div>
-                                <img src="/assets/fongvangpic.jpg" alt="Dude standing with hands behind his back" />
+                                <img src={image1} alt="Dude standing with hands behind his back" />
                                 <p>Hello! Allow me to briefly introduce myself! My name is Fong Vang. I currently reside in Minneapolis. I
                                     enjoy eating food. What type of food you might ask? Well, I'm not much of a picky eater but I do love eating
                                     noodles with sriracha sauce for an added flavor, pizza, pho (a vietnamese noodle-base bowl) and steak to
@@ -68,26 +76,26 @@ function Home() {
                     </p>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 col-sm-6"><img src="./assets/12957646_10208106303847059_5781334766809125067_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src={image2}
                                 className="portfolio-img" alt="Group of friends at Chicago's Willis Tower observation deck taking selfie." />
                             </div>
-                            <div className="col-md-6 col-sm-6"><img src="./assets/14976477_10209856889770613_4681618712186986534_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src={image3}
                                 className="portfolio-img" alt="Two guys exchanging notes and info at a hotel." />
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 col-sm-6"><img src="./assets/14991364_10209857016853790_4196552330444468827_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src={image4}
                                 className="portfolio-img" alt="Thai temple in the middle of a pond inaccessible to public" />
                             </div>
-                            <div className="col-md-6 col-sm-6"><img src="./assets/15002500_10209856891090646_4831971174106407515_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src={image5}
                                     className="portfolio-img" alt="Luxurious watch inside glass box in a store." />
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-6 col-sm-6"><img src="./assets/15016414_10209857569467605_5381956399134002401_o.jpg"
+                            <div className="col-md-6 col-sm-6"><img src={image6}
                                 className="portfolio-img" alt="Cooked food on plates coming down a conveyor" />
                             </div>
-                            <div className="col-md-6 col-sm-6"><img src="./assets/319994_2281032997001_353546433_n.jpg" className="portfolio-img"
+                            <div className="col-md-6 col-sm-6"><img src={image7} className="portfolio-img"
                                 alt="Dude holding up rod on one hand and walleyes on the other." />
                             </div>
                         </div>
