@@ -15,8 +15,10 @@ class App extends Component {
         //   <FriendCard
         <>
             id={project.id}
-            key={project.id}
+            title = {project.title}
             image={project.image}
+            GitHub={project.github}
+            Deployed Link = {project.deployed}
             
             </>
         //   />

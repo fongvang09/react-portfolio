@@ -1,14 +1,11 @@
 import React from "react";
-// import Contact from "../../pages/Contact";
-// import Home from "../../pages/Home";
-// import Portfolio from "../../pages/Portfolio";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./style.css";
 
 function Header() {
     return (
         <>
             <header>
-                <nav className="navbar navbar-expand-sm bg-light">
+                <nav className="navbar navbar-expand-sm">
                 <div className="container-fluid">
                     <h1>Fong Vang</h1>
                     <ul className="navbar-nav">

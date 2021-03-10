@@ -29,7 +29,8 @@ body section img {
 }
 
 .bodybgc {
-    background-color: rgb(128, 145, 139);
+    /* background-color: rgb(128, 145, 139); */
+    background-image: url(http://colonialbuilders.biz/wp-content/uploads/2017/04/portfolio-background.png);
 }
 
 .card {
@@ -43,10 +44,12 @@ body section img {
 
 .card-body {
     margin: 0px;
+    padding: none;
 }
 
 ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 section li {
@@ -54,7 +57,7 @@ section li {
 }
 
 section img {
-    border-style: dashed;
+    border-style: solid;
     border-width: 1px;
 }
 
@@ -64,4 +67,9 @@ a {
 
 span {
     font-weight: bold;
+}
+
+body section .row {
+    background-color: white;
+    padding: 0px 15px;
 }

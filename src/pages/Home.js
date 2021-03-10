@@ -1,14 +1,12 @@
 import React from "react";
-// import { render } from "react-dom";
-// import Header from "../components/Header/index";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Portfolio from "./Portfolio";
-// import Contact from "./Contact";
-import Footer from "../components/Footer";
-// import Wrapper from "../components/Wrapper";
-// import "./Portfolio.css";
 import "../image.json";
 import "./Portfolio.css";
+
+const style = {
+    p: {
+        padding: "20px",
+    }
+}
 
 function Home() {
     return (
@@ -20,7 +18,7 @@ function Home() {
                     <div className="col-md-12">
                         <article>
                             <div>
-                                <img src="/assets/fongvangpic.jpg" alt="Image of dude standing with hands behind his back" />
+                                <img src="/assets/fongvangpic.jpg" alt="Dude standing with hands behind his back" />
                                 <p>Hello! Allow me to briefly introduce myself! My name is Fong Vang. I currently reside in Minneapolis. I
                                     enjoy eating food. What type of food you might ask? Well, I'm not much of a picky eater but I do love eating
                                     noodles with sriracha sauce for an added flavor, pizza, pho (a vietnamese noodle-base bowl) and steak to
@@ -53,8 +51,7 @@ function Home() {
                 <hr/>
                 <div className="card">
                     <br/>
-                    {/* don't delete. fix the styling. put into css folder or do inline css */}
-                    <p>
+                    <p style={style.p}>
                         Hello! The few following pictures in the following order left to right, top to bottom were from a few years
                         ago. Very briefly, <span>(1)</span>first photo consists of me and
                         a few of my good friends that we met from high school. This picture was taken at Chicago's Willis Tower
@@ -98,7 +95,6 @@ function Home() {
                 </div>
                 <br/>
             </section>
-            <Footer />
         </>
     );
 }

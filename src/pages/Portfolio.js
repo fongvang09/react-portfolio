@@ -1,14 +1,11 @@
 import React from "react";
-// import Header from "../components/Header";
-// import Footer from "../components/Footer";
 import "./Portfolio.css";
-// import Images from "../Images";
-import Images from "../Images/Images";
 
 function Portfolio() {
     return (
         <>
             <body className="bodybgc">
+                <br/>
                 <section className="container">
                     <div className="row col-md-12 card card-body">
                     <h2><b>Portfolio</b></h2>
@@ -49,7 +46,7 @@ function Portfolio() {
                                 <h3>Note Taker</h3>
                             </li>
                             <li>
-                                <div><img src="/assets/note-taker-ss.JPG" className="portfolio-img" />
+                                <div><img src="/assets/note-taker-ss.JPG" alt="note-taker screenshot" className="portfolio-img" />
                                 </div>
                             </li>
                             <li>Deployed link: <a href="https://still-reef-79843.herokuapp.com/"
