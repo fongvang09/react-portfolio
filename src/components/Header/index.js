@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -10,13 +11,13 @@ function Header() {
                     <h1>Fong Vang</h1>
                     <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="portfolio">Portfolio</a>
+                        <Link className="nav-link active" aria-current="page" to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="index">About Me</a>
+                        <Link className="nav-link" to="/index">About Me</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="contact">Contact</a>
+                        <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                     </ul>
                 </div>
